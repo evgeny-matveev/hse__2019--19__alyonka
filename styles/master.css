@@ -144,6 +144,9 @@ header {
   color: var(--gray);
   display: block;
 }
+.about img {
+  min-width: 100%;
+}
 .about p {
   font-size: 20px;
   line-height: 28px;
@@ -154,6 +157,19 @@ header {
   color: #000;
 }
 
+@media (min-width: 768px) {
+  .about h2 {
+    font-size: 80px;
+    line-height: 96px;
+    padding: 0 24px;
+    margin-bottom: 80px;
+  }
+  .about p {
+    font-size: 36px;
+    line-height: 48px;
+    padding: 32px 24px 128px 24px;
+  }
+}
 
 
 

@@ -38,6 +38,7 @@ header {
 .intro {
   font-weight: 800;
   padding: 0 16px 16px 16px;
+  text-align: center;
 }
 .intro h1 {
   font-size: 20px;
@@ -60,11 +61,33 @@ header {
   line-height: 28px;
   color: #949494;
   margin: 40px 0;
+  text-align: left;
 }
 .intro p em {
   color: #000;
 }
 
+@media (min-width: 768px) {
+  .intro {
+    padding: 0 24px 8px 24px;
+  }
+  .intro h1 {
+    font-size: 40px;
+    padding: 96px 0 16px;
+  }
+  .intro h2 {
+    font-size: 80px;
+    padding-bottom: 72px;
+  }
+  .intro p {
+    font-size: 36px;
+    line-height: 48px;
+    margin: 72px 0;
+  }
+  .intro img {
+    width: 661px;
+  }
+}
 
 
 

@@ -31,13 +31,15 @@ header {
 
 .intro {
   font-weight: 800;
-  padding: 0 16px;
+  padding: 0 16px 16px 16px;
 }
 .intro h1 {
   font-size: 20px;
+  padding: 56px 0 8px;
 }
 .intro h2 {
   font-size: 40px;
+  padding-bottom: 40px;
 }
 .intro h1,
 .intro h2,
@@ -51,6 +53,7 @@ header {
   font-size: 20px;
   line-height: 28px;
   color: #949494;
+  margin: 40px 0;
 }
 .intro p em {
   color: #000;
